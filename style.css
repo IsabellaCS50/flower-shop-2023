@@ -45,26 +45,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .banner-content{
     align-items: center;
-    max-width: 500px;
+    max-width: 630px;
     padding-right: 97px;
 
 }
 
 .banner-image{
     padding-top: 50px;
-    width: 435px;
-    height: 600px;
+    width: 635px;
+    height: 800px;
 }
 
 .banner-heading{
     color: #272727;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 0;
     font-style: normal;
     font-weight: 800;
@@ -73,10 +73,10 @@
 
 .banner-paragraph{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 10px;
     padding-bottom: 15px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 /* Hot deals section styles */
