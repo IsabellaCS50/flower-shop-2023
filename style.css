@@ -82,7 +82,7 @@
 /* Hot deals section styles */
 
 .deals-content{
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     align-items: center;
     padding-bottom: 10px;
@@ -100,10 +100,31 @@
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .deals-btn{
     text-align: center;
+}
+
+.instagram{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.insta-content{
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.in-img{
+    width: 252px;
+    height: 306px;
+}
+
+.insta-image{
+    display: flex;
+    justify-content: space-around;
 }
