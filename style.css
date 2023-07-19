@@ -230,8 +230,11 @@
     background: #FFF;
     border-radius: 8px;
     border-style: none;
+    margin-right: 10px;
 }
-
+::placeholder{
+    padding-left: 10px;
+}
 .latest-deals{
     text-align: center;
     /* background-image: url('./Flower Asset/Rectangle\ 9.png'); */
@@ -240,4 +243,44 @@
     width: 1110px;
     height: 449px;
     margin: 120px auto;
+}
+
+/* Footer section styles */
+.footer{
+    background: #111010;
+    background-size: cover;
+    width: 1922px;
+    height: 449px;
+}
+
+.footer-content{
+    width: 625px;
+    margin: 0 auto;
+}
+.footer-heading{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
 }
