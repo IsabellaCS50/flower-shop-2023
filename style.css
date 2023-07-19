@@ -128,3 +128,20 @@
     display: flex;
     justify-content: space-around;
 }
+.form-field{
+    width: 500px;
+    height: 64px;
+    background: #FFF;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.latest-deals{
+    text-align: center;
+    /* background-image: url('./Flower Asset/Rectangle\ 9.png'); */
+    border-radius: 8px;
+    background: url('./Flower Asset/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1110px;
+    height: 449px;
+    margin: 120px auto;
+}
