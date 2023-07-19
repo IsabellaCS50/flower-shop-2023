@@ -18,18 +18,18 @@
     color: #272727;
     text-align: center;
     margin-bottom: 0;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 100px;
 }
 
 .paragraph-primary{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
-    /* max-width: 600px;
-    padding-left: 140px;
-    padding-right: 140px; */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px 15px 48px 15px;
 }
 
 .highlighted-text{
@@ -77,6 +77,99 @@
     padding-top: 10px;
     padding-bottom: 15px;
     line-height: 30px;
+}
+
+/* featured flowers styles */
+
+.featured-flowers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.featured-flower-box{
+    margin-right: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 60px;
+    padding-bottom: 0px;
+}
+
+.featured-flower-box1,
+.featured-flower-box2,
+.featured-flower-box3{
+    margin-right: 50px;
+    border-radius: 300px 300px 0 0;
+    padding: 60px;
+    padding-bottom: 0;
+}
+
+.featured-flower-box1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.featured-flower-box2{
+    background: rgba(5, 151, 160, 0.15);
+    height: 350px;
+}
+.featured-flower-box3{
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 36px;
+}
+
+.featured-flower-container div{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-flower-image{
+    max-width: 250px;
+    align-items: center;
+}
+
+.featured-p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 128px;
+}
+
+/* delivery & support section styles */
+
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 150px 0px 150px;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-main{
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 128px;
+}
+.customers div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.the-pictures{
+    max-height: 100px;  
 }
 
 /* Hot deals section styles */
