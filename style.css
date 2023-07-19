@@ -177,8 +177,7 @@
 .deals-content{
     max-width: 600px;
     margin: 0 auto;
-    align-items: center;
-    padding-bottom: 10px;
+    /* align-items: center; */
 }
 
 .deals-img{
@@ -193,34 +192,38 @@
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .deals-btn{
     text-align: center;
+    padding-bottom: 50px;
 }
 
+/* instagram section styles */
 .instagram{
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .insta-content{
-    max-width: 500px;
+    max-width: 650px;
     margin: 0 auto;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .in-img{
-    width: 252px;
-    height: 306px;
+    width: 342px;
+    height: 396px;
 }
 
 .insta-image{
     display: flex;
     justify-content: space-around;
 }
+
+/* Latest deals/subscription section style */
 .form-field{
     width: 500px;
     height: 64px;
