@@ -10,25 +10,30 @@
     background: #E55473;
     border-style: none;
     padding: 20px 43px;
+    margin-top: 0;
 
 }
 
 .heading-primary{
     color: #272727;
     text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    margin-bottom: 0;
+    font-size: 30px;
+    padding-top: 100px;
 }
 
 .paragraph-primary{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 15px;
     line-height: 30px;
+    /* max-width: 600px;
+    padding-left: 140px;
+    padding-right: 140px; */
+}
+
+.highlighted-text{
+    color: #E55473;
 }
 /* banner section styles */
 
@@ -40,33 +45,65 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .banner-content{
     align-items: center;
-    max-width: 750px;
+    max-width: 500px;
     padding-right: 97px;
 
 }
 
 .banner-image{
     padding-top: 50px;
+    width: 435px;
+    height: 600px;
 }
 
 .banner-heading{
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 0;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .banner-paragraph{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 15px;
     padding-top: 10px;
     padding-bottom: 15px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
+/* Hot deals section styles */
 
+.deals-content{
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.deals-img{
+    padding: 100px 0 100px 200px;
+    width: 318px;
+    height: 420px;
+}
+
+.hot-deals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.deals-btn{
+    text-align: center;
+}
